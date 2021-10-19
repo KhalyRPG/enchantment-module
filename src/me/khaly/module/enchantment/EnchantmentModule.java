@@ -1,6 +1,10 @@
 package me.khaly.module.enchantment;
 
+import java.util.Map;
+
+import me.khaly.core.enchantment.object.ItemEnchantment;
 import me.khaly.core.module.Module;
+import me.khaly.module.enchantment.weapon.Sharpness;
 
 public class EnchantmentModule extends Module {
 
@@ -10,12 +14,22 @@ public class EnchantmentModule extends Module {
 
 	@Override
 	public void load() {
-		log("Loaded");
+		loadEnchantment(
+				new Sharpness()
+				);
 	}
 
 	@Override
 	public void unload() {
-		log("Unloaded");
+		Map<String, ItemEnchantment> cache = this.getProvider().getServices().getCache().getEnchantments();
+		cache.clear();
 	}
-
+	
+	private void loadEnchantment(ItemEnchantment...enchants) {
+		Map<String, ItemEnchantment> cache = this.getProvider().getServices().getCache().getEnchantments();
+		for(ItemEnchantment enchant : enchants) {
+			cache.put(enchant.getID(), enchant);
+		}
+	}
+	
 }
