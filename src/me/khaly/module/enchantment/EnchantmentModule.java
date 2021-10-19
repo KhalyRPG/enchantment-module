@@ -4,6 +4,7 @@ import java.util.Map;
 
 import me.khaly.core.enchantment.object.ItemEnchantment;
 import me.khaly.core.module.Module;
+import me.khaly.module.enchantment.armor.Adrenaline;
 import me.khaly.module.enchantment.armor.Protection;
 import me.khaly.module.enchantment.weapon.Sharpness;
 
@@ -20,7 +21,8 @@ public class EnchantmentModule extends Module {
 				new Sharpness(),
 				
 				// Armor
-				new Protection()
+				new Protection(),
+				new Adrenaline()
 				);
 	}
 
