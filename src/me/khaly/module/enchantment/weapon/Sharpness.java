@@ -2,7 +2,7 @@ package me.khaly.module.enchantment.weapon;
 
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 
-import me.khaly.core.enchantment.object.ItemEnchantment;
+import me.khaly.core.enchantment.ItemEnchantment;
 import me.khaly.core.enums.EnchantCastType;
 import me.khaly.core.enums.EnchantmentCategory;
 import me.khaly.core.enums.ItemType;

@@ -1,6 +1,6 @@
 package me.khaly.module.enchantment.armor;
 
-import me.khaly.core.enchantment.object.ItemEnchantment;
+import me.khaly.core.enchantment.ItemEnchantment;
 import me.khaly.core.enums.EnchantCastType;
 import me.khaly.core.enums.EnchantmentCategory;
 import me.khaly.core.enums.ItemType;

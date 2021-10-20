@@ -2,7 +2,7 @@ package me.khaly.module.enchantment;
 
 import java.util.Map;
 
-import me.khaly.core.enchantment.object.ItemEnchantment;
+import me.khaly.core.enchantment.ItemEnchantment;
 import me.khaly.core.module.Module;
 import me.khaly.module.enchantment.armor.Adrenaline;
 import me.khaly.module.enchantment.armor.Protection;

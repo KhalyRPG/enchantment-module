@@ -4,7 +4,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
-import me.khaly.core.enchantment.object.ItemEnchantment;
+import me.khaly.core.enchantment.ItemEnchantment;
 import me.khaly.core.enums.EnchantCastType;
 import me.khaly.core.enums.EnchantmentCategory;
 import me.khaly.core.enums.ItemType;
